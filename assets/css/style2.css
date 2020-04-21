@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One');
+/* @import url('https://fonts.googleapis.com/css?family=Lato|Supermercado+One'); */
 
-/* 
-    Add a CSS ruleset to accomplish the following:
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Oswald');
 
-/* 
-    Add a CSS ruleset to accomplish the following:
-    - Use the 'Oswald' font family at 14px throughout the body of the document.
-*/
+    /* Add a CSS ruleset to accomplish the following: */
+    /* - Use the 'Oswald' font family at 14px throughout the body of the document. */
+
 
 body {
     font-family: 'Oswald';
@@ -86,3 +83,5 @@ footer {
 #starters, #desserts {
     border: 2px black solid;
 }
+
+/* Somehow in your style2.css you have replaced the @import line with the line from style1.css.  the proper line for style 2 has been moved down to line 5 inside the comment.  If you move that line back up to the top and get rid of the @import(... Supermercado...) line from style 2 it should fix the font-family problems. */
